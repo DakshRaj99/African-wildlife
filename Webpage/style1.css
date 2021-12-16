@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url(Photos/Collage.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.navbar {
+  height: 10px;
+  width: 100%;
+  margin: auto;
+  padding: 35px 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  backdrop-filter: blur(10px);
+}
+.logo {
+  width: 120px;
+  cursor: pointer;
+  size: 100px;
+  width: 200px;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+.navbar ul li::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: #ffa41b;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+.navbar ul li:hover::after {
+  width: 100%;
+}
+.content {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  color: #fff;
+}
+.footer {
+  background-color: grey;
+  margin-left: 0%;
+  position: relative;
+  text-align: center;
+}
+.Heading {
+  margin-left: 7px;
+  margin-top: 10px;
+}
+.Fauna {
+  text-align: justify;
+  margin-left: 7px;
+  margin-right: 7px;
+  font-size: larger;
+  margin-top: auto;
+  word-wrap: normal;
+}
+.Categories {
+  text-align: justify;
+  margin-left: 7px;
+  margin-right: 7px;
+  font-size: larger;
+  margin-top: auto;
+  word-wrap: normal;
+}
+.title {
+  text-align: justify;
+  margin-left: 7px;
+  margin-right: 7px;
+  font-size: larger;
+  margin-bottom: 7px;
+  word-wrap: normal;
+}
+.text2 {
+  text-align: justify;
+  margin-left: 7px;
+  margin-right: 7px;
+  font-size: larger;
+  margin-top: auto;
+  word-wrap: normal;
+}
+p {
+  margin-left: 10px;
+  margin-right: 10px;
+}

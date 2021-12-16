@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url(Photos/background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.navbar {
+  height: 10px;
+  width: 100%;
+  padding: 35px 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  backdrop-filter: blur(10px);
+}
+.logo {
+  width: 200px;
+  cursor: pointer;
+  size: 100px;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+.navbar ul li::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: #ffa41b;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+.navbar ul li:hover::after {
+  width: 100%;
+}
+.content {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  color: #fff;
+}
+.text1 {
+  margin-top: 25px;
+  font-size: 20px;
+  margin-left: 7px;
+}
+
+.text2 {
+  margin-top: 25px;
+  font-size: 20px;
+  margin-left: 7px;
+}
+.AfricanPlate {
+  word-wrap: normal;
+  align-items: end;
+}
+.text3 {
+  margin-top: 25px;
+  font-size: 20px;
+  margin-left: 7px;
+}
+.text4 {
+  margin-top: 25px;
+  font-size: 20px;
+  margin-left: 7px;
+}
+.footer {
+  background-color: gray;
+  text-align: center;
+}
+.links ul li {
+  text-decoration: none;
+  color: #fff;
+}
